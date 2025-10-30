@@ -1,136 +1,284 @@
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-  <meta name="google-site-verification" content="OKzCma3IbxhS8gSkzBm6NTwl0I_Te7Ze-RoD9QQzHlo" />
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="تصویری بازآفرینی‌شده از میرزا کوچک خان جنگلی، رهبر نهضت جنگل و مبارز راه آزادی ایران.">
-  <title>میرزا کوچک خان جنگلی</title>
+  <meta name="google-site-verification" content="OKzCma3IbxhS8gSkzBm6NTwl0I_Te7Ze-RoD9QQzHlo" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="تصویری بازآفرینی‌شده از میرزا کوچک خان جنگلی، رهبر نهضت جنگل و مبارز راه آزادی ایران.">
+  <title>میرزا کوچک خان جنگلی</title>
 
-  <!-- 🟩 کد مخصوص پیش‌نمایش لینک در تلگرام، واتساپ و شبکه‌های اجتماعی -->
-  <meta property="og:title" content="میرزا کوچک خان جنگلی – نهضت جنگل">
-  <meta property="og:description" content="میرزا کوچک خان جنگلی ، سردار و آزادی‌خواه ایرانی ، کسی که فریادش در گوش ظالمان زمان می‌پیچد.">
-  <meta property="og:image" content="https://mbalaee.github.io/mirza-portraits/mirza-kuchak-khan-ai-m-balaei.png">
-  <meta property="og:url" content="https://mbalaee.github.io/mirza-portraits/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="fa_IR">
-  <meta name="twitter:card" content="summary_large_image">
+  <!-- 🟩 کد مخصوص پیش‌نمایش لینک در تلگرام، واتساپ و شبکه‌های اجتماعی -->
+  <meta property="og:title" content="میرزا کوچک خان جنگلی – نهضت جنگل">
+  <meta property="og:description" content="میرزا کوچک خان جنگلی ، سردار و آزادی‌خواه ایرانی ، کسی که فریادش در گوش ظالمان زمان می‌پیچد.">
+  <meta property="og:image" content="https://mbalaee.github.io/mirza-portraits/mirza-kuchak-khan-ai-m-balaei.png">
+  <meta property="og:url" content="https://mbalaee.github.io/mirza-portraits/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fa_IR">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <style>
-    body {
-      text-align: center;
-      font-family: "Tahoma", sans-serif;
-      background-color: #f7f7f7;
-      padding: 0;
-      direction: rtl;
-      margin: 0;
-    }
+  <!-- فونت‌های فارسی مدرن -->
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&family=Samim:wght@400;700&display=swap" rel="stylesheet">
 
-    header {
-      background: linear-gradient(to right, #006400, #228b22);
-      color: white;
-      padding: 20px 10px;
-      font-size: 22px;
-      font-weight: bold;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      letter-spacing: 1px;
-    }
+  <!-- Font Awesome برای آیکون‌ها -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    h1 {
-      color: #222;
-      margin-bottom: 15px;
-      margin-top: 30px;
-      font-size: 26px;
-    }
+  <!-- فاوآیکون -->
+  <link rel="icon" type="image/png" href="favicon.png">
 
-    img {
-      max-width: 90%;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-      margin-top: 20px;
-    }
+  <style>
+    :root {
+      --primary-color: #1e3a8a;
+      --secondary-color: #f59e0b;
+      --accent-color: #10b981;
+      --background-light: #f7f7f7;
+      --text-dark: #111827;
+      --card-bg: #ffffff;
+    }
+    .dark-mode {
+      --background-light: #111827;
+      --text-dark: #f3f4f6;
+      --card-bg: #1f2937;
+    }
 
-    p {
-      color: #333;
-      font-size: 17px;
-      line-height: 1.9;
-      text-align: justify;
-      margin: 25px auto;
-      max-width: 800px;
-      padding: 0 15px;
-    }
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
 
-    hr {
-      border: none;
-      height: 2px;
-      background: linear-gradient(to right, #bbb, #ddd, #bbb);
-      width: 80%;
-      margin: 40px auto;
-      border-radius: 2px;
-    }
+    body {
+      font-family: 'Vazirmatn', 'Samim', sans-serif;
+      background-color: var(--background-light);
+      color: var(--text-dark);
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
 
-    .quote {
-      background-color: #fff;
-      border-right: 5px solid #008000;
-      margin: 30px auto;
-      padding: 20px;
-      font-size: 18px;
-      font-style: italic;
-      color: #111;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-      max-width: 700px;
-      line-height: 2;
-    }
+    a {
+      text-decoration: none;
+      color: var(--secondary-color);
+      transition: 0.3s;
+    }
+    a:hover { color: var(--primary-color); }
 
-    .quote span {
-      display: block;
-      text-align: left;
-      color: #555;
-      font-size: 15px;
-      margin-top: 10px;
-    }
-  </style>
+    header {
+      background: linear-gradient(to right, #006400, #228b22);
+      color: white;
+      padding: 20px 10px;
+      font-size: 22px;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      margin: 40px 20px 20px;
+      color: var(--primary-color);
+    }
+
+    img.main-portrait {
+      display: block;
+      margin: 20px auto 40px;
+      max-width: 90%;
+      border-radius: 16px;
+      border: 5px solid var(--secondary-color);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+    img.main-portrait:hover {
+      transform: scale(1.05) rotate(1deg);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.9;
+      text-align: justify;
+      margin: 25px auto;
+      max-width: 800px;
+      padding: 0 15px;
+      color: #333;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background: linear-gradient(to right, #bbb, #ddd, #bbb);
+      width: 80%;
+      margin: 40px auto;
+      border-radius: 2px;
+    }
+
+    .quote, .big-quote {
+      background-color: var(--card-bg);
+      border-left: 6px solid var(--accent-color);
+      margin: 30px auto;
+      padding: 20px;
+      font-size: 18px;
+      font-style: italic;
+      color: var(--primary-color);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+      max-width: 750px;
+      line-height: 2;
+      border-radius: 8px;
+    }
+    .quote span {
+      display: block;
+      text-align: left;
+      color: #555;
+      font-size: 15px;
+      margin-top: 10px;
+    }
+
+    .intro-card {
+      background: var(--card-bg);
+      padding: 30px 25px;
+      margin: 40px auto;
+      max-width: 900px;
+      box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+      border-radius: 16px;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeInUp 0.8s forwards ease-out;
+      transition: all 0.3s;
+    }
+
+    #contact {
+      background: var(--card-bg);
+      padding: 40px 30px;
+      margin: 60px auto;
+      max-width: 700px;
+      border-radius: 12px;
+      box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+    }
+    #contact input[type="email"], #contact input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    #contact input[type="submit"] {
+      background: var(--secondary-color);
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    #contact input[type="submit"]:hover { background: var(--primary-color); }
+
+    #references ul {
+      list-style: disc;
+      margin-left: 20px;
+      max-width: 700px;
+      margin: 40px auto;
+    }
+    #references li {
+      margin-bottom: 10px;
+    }
+
+    #backToTop {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      display: none;
+      padding: 12px 18px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background: var(--accent-color);
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+    #backToTop:hover { background: var(--secondary-color); }
+
+    @keyframes fadeInUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 40px;
+      margin: 50px 0;
+    }
+
+    .grid-item {
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .grid-item:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+  </style>
 </head>
 <body>
 
-  <header>
-    نهضت جنگل – میرزا کوچک خان جنگلی
-  </header>
+<header>
+  نهضت جنگل – میرزا کوچک خان جنگلی
+</header>
 
-  <h1>میرزا کوچک خان جنگلی</h1>
-  <img src="mirza-kuchak-khan-ai-m-balaei.png" alt="میرزا کوچک خان جنگلی">
+<h1>میرزا کوچک خان جنگلی</h1>
+<img src="mirza-kuchak-khan-ai-m-balaei.png" alt="میرزا کوچک خان جنگلی" class="main-portrait">
 
-  <div class="quote">
-    «من عاری از شرف می‌دانم کسی را که حقوق حاکمیت و استقلال مملکت را فدیه شغل و مقام کند.  
-    من استقلال ایران را خواهانم و بقای اعتبارات کشور را طالبم!»
-    <span>— میرزا کوچک خان جنگلی</span>
-  </div>
+<div class="quote">
+  «من عاری از شرف می‌دانم کسی را که حقوق حاکمیت و استقلال مملکت را فدیه شغل و مقام کند.  
+  من استقلال ایران را خواهانم و بقای اعتبارات کشور را طالبم!»
+  <span>— میرزا کوچک خان جنگلی</span>
+</div>
 
-  <p>
-    میرزا کوچک خان جنگلی (۱۲۵۷–۱۳۰۰ خورشیدی) از مبارزان آزادی‌خواه ایران و بنیان‌گذار نهضت جنگل در گیلان و شمال ایران بود. 
-    او در دوره‌ای از تاریخ ایران برخاست که کشور درگیر اشغال نیروهای بیگانه و فساد سیاسی درباریان بود.
-  </p>
+<div class="intro-card fade-in">
+  <p>
+    میرزا کوچک خان جنگلی (۱۲۵۷–۱۳۰۰ خورشیدی) از مبارزان آزادی‌خواه ایران و بنیان‌گذار نهضت جنگل در گیلان و شمال ایران بود. 
+    او در دوره‌ای از تاریخ ایران برخاست که کشور درگیر اشغال نیروهای بیگانه و فساد سیاسی درباریان بود.
+  </p>
+  <p>
+    هدف میرزا از تشکیل نهضت جنگل، استقلال ایران، عدالت اجتماعی و مقابله با نفوذ قدرت‌های بیگانه به‌ویژه روس و انگلیس بود.
+    او در جنگل‌های گیلان، حکومتی مردمی و مستقل تشکیل داد و با سربازان خود، که بیشتر از مردم بومی بودند، برای آزادی و عدالت جنگید.
+  </p>
+  <p>
+    میرزا کوچک خان همواره بر اصول ملی، دینی و اخلاقی تأکید داشت و هیچ‌گاه به خشونت بی‌هدف یا وابستگی به بیگانگان تن نداد.
+  </p>
+</div>
 
-  <p>
-    هدف میرزا از تشکیل نهضت جنگل، استقلال ایران، عدالت اجتماعی و مقابله با نفوذ قدرت‌های بیگانه به‌ویژه روس و انگلیس بود.
-    او در جنگل‌های گیلان، حکومتی مردمی و مستقل تشکیل داد و با سربازان خود، که بیشتر از مردم بومی بودند، برای آزادی و عدالت جنگید.
-  </p>
+<hr>
 
-  <p>
-    میرزا کوچک خان همواره بر اصول ملی، دینی و اخلاقی تأکید داشت و هیچ‌گاه به خشونت بی‌هدف یا وابستگی به بیگانگان تن نداد.
-  </p>
+<p>
+  او پس از سال‌ها مقاومت، در سرمای کوه‌های تالش جان باخت؛ اما نامش به عنوان نماد پاک‌باختگی، صداقت و میهن‌دوستی در تاریخ ایران جاودانه شد.
+</p>
 
-  <!-- 🔸 خط جداکننده زیبا بین دو بخش -->
-  <hr>
+<p>
+  این تصویر بازآفرینی‌شده بر پایه آخرین تصویر بجامانده، با هدف ادای احترام به سردار جنگل میرزا کوچک خان جنگلی تهیه شده است — یادگاری از مبارزی که در سخت‌ترین روزهای تاریخ، پرچم آزادی را بر دوش کشید.
+</p>
 
-  <p>
-    او پس از سال‌ها مقاومت، در سرمای کوه‌های تالش جان باخت؛ اما نامش به عنوان نماد پاک‌باختگی، صداقت و میهن‌دوستی در تاریخ ایران جاودانه شد.
-  </p>
+<!-- بخش نقل‌قول‌ها -->
+<section class="container grid">
+  <div class="grid-item big-quote">
+    <i class="fa-solid fa-quote-left"></i>
+    «من عاری از شرف می‌دانم کسی را که…»
+    <i class="fa-solid fa-quote-right"></i>
+  </div>
+  <div class="grid-item big-quote">
+    <i class="fa-solid fa-quote-left"></i>
+    «نهضت جنگل نماد مقاومت مردم گیلان است.»
+    <i class="fa-solid fa-quote-right"></i>
+  </div>
+</section>
 
-  <p>
-    این تصویر بازآفرینی‌شده بر پایه آخرین تصویر بجامانده، با هدف ادای احترام به سردار جنگل؛ میرزا کوچک خان جنگلی تهیه شده است — یادگاری از مبارزی که در سخت‌ترین روزهای تاریخ، پرچم آزادی را بر دوش کشید.
-  </p>
-
-</body>
-</html>
+<!-- فرم تماس -->
