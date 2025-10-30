@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mbalaee.github.io/mirza-portraits/</loc>
-    <image:image>
-      <image:loc>https://mbalaee.github.io/mirza-portraits/mirza-kuchak-khan-ai-m-balaei.png</image:loc>
-      <image:caption>پرتره بازآفرینی‌شده از میرزا کوچک خان جنگلی با هوش مصنوعی</image:caption>
-      <image:title>میرزا کوچک خان جنگلی</image:title>
-    </image:image>
+    <lastmod>2025-10-30</lastmod>
+    <priority>1.0</priority>
   </url>
 </urlset>
