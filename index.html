@@ -1,296 +1,118 @@
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-  <meta name="google-site-verification" content="OKzCma3IbxhS8gSkzBm6NTwl0I_Te7Ze-RoD9QQzHlo" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="تصویری بازآفرینی‌شده از میرزا کوچک خان جنگلی، رهبر نهضت جنگل و مبارز راه آزادی ایران.">
+  <meta name="description" content="گالری تصاویر بازآفرینی‌شده میرزا کوچک خان جنگلی">
   <title>میرزا کوچک خان جنگلی</title>
 
-  <!-- تنظیمات شبکه اجتماعی -->
-  <meta property="og:title" content="میرزا کوچک خان جنگلی – نهضت جنگل">
-  <meta property="og:description" content="میرزا کوچک خان جنگلی ، سردار و آزادی‌خواه ایرانی.">
-  <meta property="og:image" content="https://mbalaee.github.io/mirza-portraits/mirza-kuchak-khan-ai-m-balaei.png">
-  <meta property="og:url" content="https://mbalaee.github.io/mirza-portraits/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="fa_IR">
+  <!-- تنظیمات کش (برای اینکه مرورگر نسخه جدید رو حتما بگیره) -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 
-  <!-- فونت‌ها و آیکون‌ها -->
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&family=Samim:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="icon" type="image/png" href="favicon.png">
-
+  
   <style>
-    :root {
-      --primary-color: #1e3a8a;
-      --secondary-color: #f59e0b;
-      --accent-color: #10b981;
-      --background-light: #f7f7f7;
-      --text-dark: #111827;
-      --card-bg: #ffffff;
-    }
-    .dark-mode {
-      --background-light: #111827;
-      --text-dark: #f3f4f6;
-      --card-bg: #1f2937;
-    }
-
-    * {
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-
     body {
       font-family: 'Vazirmatn', 'Samim', sans-serif;
-      background-color: var(--background-light);
-      color: var(--text-dark);
-      margin: 0;
-      padding: 0;
+      background-color: #f7f7f7;
+      color: #111827;
       direction: rtl;
+      margin: 0;
     }
-
     header {
       background: linear-gradient(to right, #006400, #228b22);
       color: white;
-      padding: 20px 10px;
+      padding: 20px;
+      text-align: center;
       font-size: 22px;
       font-weight: bold;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      letter-spacing: 1px;
-      text-align: center;
     }
-
-    h1 {
-      font-size: 3rem;
-      text-align: center;
-      margin: 40px 20px 20px;
-      color: var(--primary-color);
+    h1, h2 { text-align: center; color: #1e3a8a; }
+    
+    .container { max-width: 1200px; margin: auto; padding: 20px; }
+    
+    img.main-portrait {
+      display: block; margin: 20px auto; max-width: 90%;
+      border-radius: 16px; border: 5px solid #f59e0b;
     }
     
-    h2 {
-      text-align: center;
-      color: var(--primary-color);
-      margin-top: 50px;
-      margin-bottom: 30px;
-    }
-
-    img.main-portrait {
-      display: block;
-      margin: 20px auto 40px;
-      max-width: 90%;
-      border-radius: 16px;
-      border: 5px solid var(--secondary-color);
-      box-shadow: 0 12px 24px rgba(0,0,0,0.1);
-      transition: transform 0.5s ease, box-shadow 0.5s ease;
-    }
-    img.main-portrait:hover {
-      transform: scale(1.05) rotate(1deg);
-      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-    }
-
-    p {
-      font-size: 17px;
-      line-height: 1.9;
-      text-align: justify;
-      margin: 25px auto;
-      max-width: 800px;
-      padding: 0 15px;
-      color: #333;
-    }
-
-    hr {
-      border: none;
-      height: 2px;
-      background: linear-gradient(to right, #bbb, #ddd, #bbb);
-      width: 80%;
-      margin: 40px auto;
-      border-radius: 2px;
-    }
-
-    .quote, .big-quote {
-      background-color: var(--card-bg);
-      border-left: 6px solid var(--accent-color);
-      margin: 30px auto;
-      padding: 20px;
-      font-size: 18px;
-      font-style: italic;
-      color: var(--primary-color);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.05);
-      max-width: 750px;
-      line-height: 2;
-      border-radius: 8px;
-    }
-    .quote span {
-      display: block;
-      text-align: left;
-      color: #555;
-      font-size: 15px;
-      margin-top: 10px;
-    }
-
-    .intro-card {
-      background: var(--card-bg);
-      padding: 30px 25px;
-      margin: 40px auto;
-      max-width: 900px;
-      box-shadow: 0 12px 24px rgba(0,0,0,0.08);
-      border-radius: 16px;
-      opacity: 0;
-      transform: translateY(30px);
-      animation: fadeInUp 0.8s forwards ease-out;
-      transition: all 0.3s;
-    }
-
-    @keyframes fadeInUp {
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: auto;
-      padding: 0 20px;
-    }
-
-    /* --- استایل‌های گالری جدید --- */
     .gallery-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 30px;
-      margin-bottom: 60px;
+      margin-bottom: 50px;
     }
-
     .gallery-item {
-      background: var(--card-bg);
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 12px 24px rgba(0,0,0,0.08);
-      transition: transform 0.4s ease, box-shadow 0.4s ease;
-      border: 1px solid #eee;
-    }
-    
-    .gallery-item:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    }
-
-    .gallery-item img {
-      width: 100%;
-      height: 280px;
-      object-fit: cover;
-      display: block;
-    }
-
-    .gallery-caption {
-      padding: 15px;
+      background: white; border-radius: 12px; overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       text-align: center;
-      font-weight: bold;
-      color: var(--text-dark);
-      border-top: 1px solid #f0f0f0;
+      border: 1px solid #ddd;
     }
-    
-    footer {
-        background: #1f2937;
-        color: white;
-        text-align: center;
-        padding: 40px 20px;
-        margin-top: 60px;
+    .gallery-item img {
+      width: 100%; height: 280px; object-fit: cover; display: block;
     }
-    footer a { color: var(--secondary-color); text-decoration: none; }
-    footer a:hover { color: white; }
+    .gallery-caption { padding: 10px; font-weight: bold; }
 
+    footer { background: #1f2937; color: white; text-align: center; padding: 30px; margin-top: 40px;}
   </style>
 </head>
 <body>
 
-<header>
-  نهضت جنگل – میرزا کوچک خان جنگلی
-</header>
+<header>نهضت جنگل – میرزا کوچک خان جنگلی</header>
 
 <h1>میرزا کوچک خان جنگلی</h1>
-<!-- عکس اصلی (طبق نام فایل اعلام شده) -->
-<img src="mirza-kuchak-khan-ai-m-balaei.png" alt="میرزا کوچک خان جنگلی" class="main-portrait">
 
-<div class="quote">
-  «من عاری از شرف می‌دانم کسی را که حقوق حاکمیت و استقلال مملکت را فدیه شغل و مقام کند.  
-  من استقلال ایران را خواهانم و بقای اعتبارات کشور را طالبم!»
-  <span>— میرزا کوچک خان جنگلی</span>
-</div>
+<!-- عکس اصلی -->
+<img src="https://mbalaee.github.io/mirza-portraits/mirza-kuchak-khan-ai-m-balaei.png" alt="میرزا کوچک خان" class="main-portrait">
 
-<!-- متن‌های اصلی -->
-<div class="intro-card">
-  <p>
-    میرزا کوچک خان جنگلی (۱۲۵۷–۱۳۰۰ خورشیدی) از مبارزان آزادی‌خواه ایران و بنیان‌گذار نهضت جنگل در گیلان و شمال ایران بود. 
-    او در دوره‌ای از تاریخ ایران برخاست که کشور درگیر اشغال نیروهای بیگانه و فساد سیاسی درباریان بود.
-  </p>
-  <p>
-    هدف میرزا از تشکیل نهضت جنگل، استقلال ایران، عدالت اجتماعی و مقابله با نفوذ قدرت‌های بیگانه به‌ویژه روس و انگلیس بود.
-    او در جنگل‌های گیلان، حکومتی مردمی و مستقل تشکیل داد و با سربازان خود، که بیشتر از مردم بومی بودند، برای آزادی و عدالت جنگید.
-  </p>
-  <p>
-    میرزا کوچک خان همواره بر اصول ملی، دینی و اخلاقی تأکید داشت و هیچ‌گاه به خشونت بی‌هدف یا وابستگی به بیگانگان تن نداد.
+<div class="container">
+  <p style="text-align: justify; line-height: 1.8;">
+    میرزا کوچک خان جنگلی نماد مقاومت و آزادی‌خواهی است. تصاویر زیر تلاش هوش مصنوعی برای بازسازی چهره این سردار بزرگ است.
   </p>
 </div>
 
-<hr>
-
-<p>
-  او پس از سال‌ها مقاومت، در سرمای کوه‌های تالش جان باخت؛ اما نامش به عنوان نماد پاک‌باختگی، صداقت و میهن‌دوستی در تاریخ ایران جاودانه شد.
-</p>
-
-<p>
-  این تصویر بازآفرینی‌شده بر پایه آخرین تصویر بجامانده، با هدف ادای احترام به سردار جنگل؛ میرزا کوچک خان جنگلی تهیه شده است — یادگاری از مبارزی که در سخت‌ترین روزهای تاریخ، پرچم آزادی را بر دوش کشید.
-</p>
-
-<!-- بخش گالری ۵ تایی جدید با نام فایل‌های دقیق -->
 <section class="container">
-  <h2>گالری تصاویر جدید</h2>
+  <h2>گالری تصاویر</h2>
   <div class="gallery-grid">
     
-    <!-- عکس شماره ۲ (PNG) -->
+    <!-- عکس شماره ۲ -->
     <div class="gallery-item">
-      <img src="mirza-2.png" alt="طرح شماره ۲ میرزا">
+      <img src="https://mbalaee.github.io/mirza-portraits/mirza-2.png" alt="طرح ۲">
       <div class="gallery-caption">طرح شماره ۲</div>
     </div>
 
-    <!-- عکس شماره ۳ (PNG) -->
+    <!-- عکس شماره ۳ -->
     <div class="gallery-item">
-      <img src="mirza-3.png" alt="طرح شماره ۳ میرزا">
+      <img src="https://mbalaee.github.io/mirza-portraits/mirza-3.png" alt="طرح ۳">
       <div class="gallery-caption">طرح شماره ۳</div>
     </div>
 
-    <!-- عکس شماره ۴ (PNG) -->
+    <!-- عکس شماره ۴ -->
     <div class="gallery-item">
-      <img src="mirza-4.png" alt="طرح شماره ۴ میرزا">
+      <img src="https://mbalaee.github.io/mirza-portraits/mirza-4.png" alt="طرح ۴">
       <div class="gallery-caption">طرح شماره ۴</div>
     </div>
 
-    <!-- عکس شماره ۵ (JPG) -->
+    <!-- عکس شماره ۵ -->
     <div class="gallery-item">
-      <img src="mirza-5.jpg" alt="طرح شماره ۵ میرزا">
+      <img src="https://mbalaee.github.io/mirza-portraits/mirza-5.jpg" alt="طرح ۵">
       <div class="gallery-caption">طرح شماره ۵</div>
     </div>
 
-    <!-- عکس شماره ۶ (JPG) -->
+    <!-- عکس شماره ۶ -->
     <div class="gallery-item">
-      <img src="mirza-6.jpg" alt="طرح شماره ۶ میرزا">
+      <img src="https://mbalaee.github.io/mirza-portraits/mirza-6.jpg" alt="طرح ۶">
       <div class="gallery-caption">طرح شماره ۶</div>
     </div>
 
   </div>
 </section>
 
-<!-- بخش نقل‌قول‌ها -->
-<section class="container">
-  <div class="big-quote">
-    <i class="fa-solid fa-quote-left"></i>
-    «نهضت جنگل نماد مقاومت مردم گیلان است.»
-    <i class="fa-solid fa-quote-right"></i>
-  </div>
-</section>
-
 <footer>
-    <p>طراحی شده با ❤️ توسط مهیاد</p>
-    <p><a href="https://github.com/mbalaee/mirza-portraits">مشاهده پروژه در گیت‌هاب</a></p>
+  <p>طراحی شده توسط مهیاد ❤️</p>
 </footer>
 
 </body>
